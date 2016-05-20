@@ -40,9 +40,9 @@ h1  {
 	-moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-duration:0.25s;
-	-moz-animation-duration:0.25s;
-	animation-duration:0.25s;
+	-webkit-animation-duration:1.25s;
+	-moz-animation-duration:1.25s;
+	animation-duration:1.25s;
 }
 
 .fade-in-title {
@@ -55,7 +55,7 @@ h1  {
 	-moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-duration:1s;
-	-moz-animation-duration:1s;
-	animation-duration:1s;
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	animation-duration:2s;
 }
