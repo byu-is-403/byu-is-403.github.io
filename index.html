@@ -6,7 +6,23 @@
     <link rel="stylesheet" href="index.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <img class="bg fade-in" src="assets/ocean-bg.jpeg" alt="background-image" />
+    <img id="bg" src="assets/ocean-bg.jpeg" alt="background-image" />
     <h1 class="fade-in-title">BYU IS 403</h1>
   </body>
+
+<script type="text/javascript">
+  var img = new Image();
+  img.onload = function() {
+    // trigger animation
+    var image = document.getElementById("bg");
+    var className = "fade-in";
+
+    if (image.classList)
+      image.classList.add(className);
+    else
+      image.className += ' ' + className;
+  }
+  img.src = 'assets/ocean-bg.jpeg';
+</script>
+
 </html>

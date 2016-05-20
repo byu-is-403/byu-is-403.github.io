@@ -2,7 +2,9 @@ html {
   background-color: #2c2d28;
 }
 
-img.bg {
+img#bg {
+  opacity:0;
+
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
@@ -40,9 +42,9 @@ h1  {
 	-moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-duration:1.25s;
-	-moz-animation-duration:1.25s;
-	animation-duration:1.25s;
+	-webkit-animation-duration:0.25s;
+	-moz-animation-duration:0.25s;
+	animation-duration:0.25s;
 }
 
 .fade-in-title {
