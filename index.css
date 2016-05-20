@@ -1,0 +1,16 @@
+html {
+  background: url(assets/ocean-bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1  {
+  color: #fff;
+  font-family: "helvetica neue";
+  font-weight: 100;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 72px;
+}
