@@ -7,7 +7,7 @@
   </head>
   <body>
     <img id="bg" src="assets/ocean-bg.jpeg" alt="background-image" />
-    <h1 class="fade-in-title">BYU IS 403</h1>
+    <h1 id="title">BYU IS 403</h1>
   </body>
 
 <script type="text/javascript">
@@ -15,12 +15,20 @@
   img.onload = function() {
     // trigger animation
     var image = document.getElementById("bg");
+    var title = document.getElementById("title");
+
     var className = "fade-in";
 
     if (image.classList)
       image.classList.add(className);
     else
       image.className += ' ' + className;
+
+    if (title.classList)
+      title.classList.add("fade-in-title");
+    else
+      title.className += ' ' + "fade-in-title";
+
   }
   img.src = 'assets/ocean-bg.jpeg';
 </script>
